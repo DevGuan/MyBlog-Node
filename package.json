@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "Blog By Node.js",
   "main": "app.js",
-  "dependencies": {
-        "koa": "2.2.0"
-    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node app.js"
+    "start" : "node server/index.js"
   },
   "author": "DevGuan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+        "koa": "2.2.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-json":"2.0.2",
+        "koa-logger":"3.0.0",
+        "koa-onerror":"3.1.0",
+        "koa-router":"7.2.1",
+        "mongoose":"4.7.4"
+    },
+    "devDependencies": {
+      
+    }
 }

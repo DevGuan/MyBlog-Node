@@ -1,5 +1,4 @@
 'use strict' 
-
 const Koa = require('koa');
 const app = new Koa();
 
@@ -23,7 +22,7 @@ app.use(async (ctx, next) => {
     ctx.response.type = 'text/html';
     ctx.response.body = '<h1>Hello,Koa2!</h1>';
 });
-app.listen(80, function(){
-    console.log('app started at port 80...');
+app.listen(9096, function(){
+    console.log('app started at port 9096...');
 });
 
